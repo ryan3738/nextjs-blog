@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import ImageLightBox from '../../components/image-light-box'
 
 export default function Post({ postData }) {
   return (
@@ -33,6 +34,14 @@ export default function Post({ postData }) {
         </article>
       </container>
       <style jsx>{`
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          color: var(--primary-color-desaturated);
+        }
         .header {
           color: var(--primary-color-desaturated);
           display: flex;
@@ -45,8 +54,14 @@ export default function Post({ postData }) {
           width: 100vw;
           max-width: 1120px;
           background-color: var(--surface-color);
+          padding: 10px;
           /* background: var(--background-color); */
         }
+        /* .content {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        } */
         .content ul {
           list-style-type: none;
           padding: 0;
@@ -59,6 +74,26 @@ export default function Post({ postData }) {
           background-color: var(--surface-color);
           padding: 10px;
           border-radius: 7px;
+        }
+        .photo-grid {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: repeat(auto-fit, minmax(240px, 360px));
+          grid-auto-rows: 50vh;
+          margin: 10px;
+          justify-content: center;
+        }
+        .image > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .image > img:hover {
+          opacity: 0.7;
+        }
+        img {
+          width: 50vw;
+          height: auto;
         }
       `}</style>
     </Layout>
