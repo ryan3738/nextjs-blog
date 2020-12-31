@@ -2,7 +2,7 @@
 layout: announcement
 title: Thanksgiving Takeout Dinner
 subtitle: 4 COURSE | READY TO REHEAT
-date: 2020-11-25T23:52:00.834Z
+date: '2020-11-25T23:52:00.834Z'
 imageSource: /images/rhubarb-margarita-mayhem-square.jpg
 imageAlt: Image of four people toasting red wine
 ---

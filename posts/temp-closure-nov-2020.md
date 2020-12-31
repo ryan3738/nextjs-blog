@@ -1,7 +1,7 @@
 ---
 title: TEMPORARILY CLOSED
 subTitle: To purchase a gift card please visit our online store or call us at 360-279-1231
-date: '2020-11-25T08:00:00.000Z'
+date: '2020-11-16T08:00:00.000Z'
 imageSource: /images/pig-were-back.jpg
 imageAlt: Pig holding a sign that says We're Back
 ---

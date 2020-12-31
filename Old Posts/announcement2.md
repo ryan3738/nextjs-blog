@@ -1,7 +1,7 @@
 ---
 title: Frasers Dine In Is Back!
 subTitle: Our dining room is open for service. reservations are recommended. call to place a takeout order.
-date: '2020-11-25T08:00:00.000Z'
+date: '2020-06-07T08:00:00.000Z'
 imageSource: /images/pig-were-back.jpg
 imageAlt: Pig holding a sign that says We're Back
 ---

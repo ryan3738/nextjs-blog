@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Image from 'next/image'
+// import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 // import utilStyles from '../styles/utils.module.css'
 // import { getSortedPostsData } from '../lib/posts';
@@ -22,15 +22,15 @@ export async function getStaticProps() {
   // const allPostsData = getSortedPostsData();
   const aboutOwnerData = await getDoubleData('public/data/about-owner.md')
   const aboutBusinessData = await getDoubleData('public/data/about-business.md')
-  const announcement1Data = await getDoubleData(siteData.announcement1)
-  const announcement2Data = await getDoubleData(siteData.announcement2)
+  // const announcement1Data = await getDoubleData(siteData.announcement1)
+  // const announcement2Data = await getDoubleData(siteData.announcement2)
 
   return {
     props: {
       aboutOwnerData,
       aboutBusinessData,
-      announcement1Data,
-      announcement2Data,
+      // announcement1Data,
+      // announcement2Data,
     },
   }
 }
@@ -38,15 +38,14 @@ export async function getStaticProps() {
 export default function Home({
   aboutOwnerData,
   aboutBusinessData,
-  announcement1Data,
-  announcement2Data,
+  // announcement1Data,
+  // announcement2Data,
 }) {
   return (
     <>
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
-          {/* <script src='https://identity.netlify.com/v1/netlify-identity-widget.js'></script> */}
         </Head>
         <section className="container">
           {/* <h1 className="header hidden-header-off">
@@ -221,6 +220,7 @@ export default function Home({
               imageAlt={aboutBusinessData.imageAlt}
             >
               <div
+                // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: aboutBusinessData.contentHtml,
                 }}
@@ -235,6 +235,7 @@ export default function Home({
               imageLeft
             >
               <div
+                // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{
                   __html: aboutOwnerData.contentHtml,
                 }}

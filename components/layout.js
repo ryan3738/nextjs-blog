@@ -13,9 +13,12 @@ export const siteTitle =
   'Frasers Gourmet Hideaway | Oak Harbor | Pacific Northwest'
 
 const theme = {
-  maxWidth: '1200px',
+  maxWidth: '1120px',
   smallScreen: '460px',
   mediumScreen: '769px',
+  quadItemWidth: '240px',
+  tripleItemWidth: '360px',
+  doubleItemWidth: '560px',
 }
 
 export default function Layout({ children, home }) {
@@ -88,7 +91,6 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main className="main">{children}</main>
-      {!home && <Button buttonText="<== HOME" buttonLink="/" />}
       <footer className="footer">
         <span>© 2020 Frasers Gourmet Hideaway |</span>
         <span className="no-wrap">
