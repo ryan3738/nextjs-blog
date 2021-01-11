@@ -1,6 +1,8 @@
 // import doubleItems from '../public/data/double.json';
 import Image from 'next/image'
 
+
+
 export default function Double({
   children,
   title,
