@@ -3,30 +3,75 @@ layout: announcement
 title: Christmas Takeout Dinner
 subtitle: 4 COURSE | READY TO REHEAT
 date: '2020-12-11T23:52:00.834Z'
-imageSource: /images/rhubarb-margarita-mayhem-square.jpg
-imageAlt: Image of four people toasting red wine
+imageSource: /images/sweet-potato-pecan-pie.jpeg
+imageAlt: Frasers pig happy holidays
 ---
-$45 PER PERSON SOLD OUT!
+## $45 PER PERSON
 
-**PICKUP:** THURSDAY NOV. 26TH 12-2 PM
+## **PICKUP:** Thursday December 24TH 12-2 PM
 
-**TOMATO BURRATA SALAD**
-Oven-roasted tomatoes, burrata mozzarella, pickled asparagus, prosciutto, baba ghanouj
+## FOUR COURSE TAKEOUT DINNER
 
-**SMOKED ONION SOUP**
+<div className="photo-grid">
+<div className="image">
+            <img
+              src="/images/tomato-burrata-salad.jpeg"
+              alt="Tomato burrata salad"
+              loading="lazy"
+            />
+          </div>
+
+### TOMATO BURRATA SALAD
+Oven-roasted tomatoes, burrata mozzarella, pickled asparagus, prosciutto, baba ghanouj  
+
+<div className="image">
+            <img
+              src="/images/smoked-onion-soup.jpeg"
+              alt="Smoked onion soup"
+              loading="lazy"
+            />
+          </div>
+
+### SMOKED ONION SOUP
 Applewood smoked Walla Walla Onions, crème fraîche, crispy shallots
 
-**SRF KUROBUTA PORK CHOP**
+<div className="image">
+            <img
+              src="/images/srf-kurobuta-pork-chop.jpeg"
+              alt="Kurobuta pork chop"
+              loading="lazy"
+            />
+          </div>
+
+### SRF KUROBUTA PORK CHOP
 Spaetzle, asparagus, pickled red cabbage, Dijonnaise cream sauce
 
 **OR**
 
-**TEXAS LONG BONE SHORT RIB**
+<div className="image">
+            <img
+              src="/images/texas-long-bone-short-rib-christmas.jpeg"
+              alt="Texax long bone short ribs"
+              loading="lazy"
+            />
+          </div>
+
+### TEXAS LONG BONE SHORT RIB
 Tender giant bone-in short rib, garlic mash, vegetables, braising reduction
 
-**SWEET POTATO PECAN PIE**
-Caramel sauce, maple whip
+<div className="image">
+            <img
+              src="/images/sweet-potato-pecan-pie.jpeg"
+              alt="Sweet potato pecan pie"
+              loading="lazy"
+            />
+          </div>
 
+### SWEET POTATO PECAN PIE
+Caramel sauce, maple whip
+</div>
+
+<ImageLightBox />
 
   <!-- <ul className="special-menu">
                   <li>

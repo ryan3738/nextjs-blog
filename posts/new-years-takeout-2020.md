@@ -1,12 +1,12 @@
 ---
 layout: announcement
-title: Christmas Takeout Dinner
+title: New Years Takeout Dinner
 subtitle: 4 COURSE | READY TO REHEAT
-date: '2020-12-11T23:52:00.834Z'
+date: '2020-12-25T23:52:00.834Z'
 imageSource: /images/rhubarb-margarita-mayhem-square.jpg
 imageAlt: Image of four people toasting red wine
 ---
-$45 PER PERSON SOLD OUT!
+$65 PER PERSON
 
 **PICKUP:** THURSDAY NOV. 26TH 12-2 PM
 
